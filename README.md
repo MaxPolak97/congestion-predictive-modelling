@@ -13,3 +13,9 @@ The primary goal of this project is to build a predictive model that not only fo
 
 ## Proposed Solution 💡
 Our strategy involves short-term probabilistic forecasting using LightGBM for Quantile Regression. This method doesn't just offer a single-point forecast, it provides a detailed distribution of possible outcomes at different probabilities. With this information, Stedin operators can gauge the certainty of various load scenarios, allowing for strategic decisions to effectively manage and prevent grid congestion.
+
+## Project Structure 📁
+The project is structured as follows:
+1. `01_Data_Analysis.ipynb`: This notebook is dedicated to a thorough examination of the dataset by performing data cleaning, feature engineering, and data visualizations.
+2. `02_Predictive_Modelling.ipynb`: Training and evaluation of the LightGBM predictive model. The evaluation of the model includes performance metrics, feature importance analysis, and error analysis.
+3. `03_Forecasting.ipynb`: Short-term Forecasting of grid load for the next 48 hours. This notebook emphasizes the practical application of the predictive model in grid management.
